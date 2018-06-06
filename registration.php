@@ -8,6 +8,7 @@
 
 	$first_name = mysqli_real_escape_string($conn, trim($_POST["first_name"]));
 	$last_name = mysqli_real_escape_string($conn, trim($_POST["last_name"]));
+	$home_address = mysqli_real_escape_string($conn, trim($_POST["home_address"]));
 	$email = mysqli_real_escape_string($conn, trim($_POST["email"]));
 	$password = mysqli_real_escape_string($conn, trim($_POST["password"]));
 	$contact = mysqli_real_escape_string($conn, trim($_POST["contact"]));
