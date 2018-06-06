@@ -37,6 +37,8 @@ if (mysqli_query($conn, $sql)) {
 	<input type="text" name="first_name"> <br>
 	Last Name <br>
 	<input type="text" name="last_name"> <br>
+	Home Address <br>
+	<input type="text" name="home_address"> <br>
 	Email <br>
 	<input type="text" name="email"> <br>
 	Password <br>
